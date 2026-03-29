@@ -1,0 +1,16 @@
+{
+  "name": "the-node-layout-algorithm-behind-formity-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "Marti Serra",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "node-ts": "^8.0.8"
+  }
+}
