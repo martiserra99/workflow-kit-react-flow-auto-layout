@@ -1,5 +1,5 @@
 {
-  "name": "the-node-layout-algorithm-behind-formity-ui",
+  "name": "workflow-kit",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,5 @@
   "type": "commonjs",
   "devDependencies": {
     "node-ts": "^8.0.8"
-  },
-  "packageManager": "pnpm@10.0.0"
+  }
 }

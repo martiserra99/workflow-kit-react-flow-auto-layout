@@ -10,11 +10,11 @@ For a full breakdown of how the algorithm works, read the article:
 Install dependencies:
 
 ```bash
-pnpm install
+npm install
 ```
 
 Run the project:
 
 ```bash
-pnpm run start
+npm run start
 ```
