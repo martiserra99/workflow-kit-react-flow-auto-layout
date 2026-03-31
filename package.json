@@ -12,5 +12,6 @@
   "type": "commonjs",
   "devDependencies": {
     "node-ts": "^8.0.8"
-  }
+  },
+  "packageManager": "pnpm@10.0.0"
 }

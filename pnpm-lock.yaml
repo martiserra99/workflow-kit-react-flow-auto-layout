@@ -1,0 +1,50 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      node-ts:
+        specifier: ^8.0.8
+        version: 8.0.11
+
+packages:
+
+  '@rauschma/stringio@1.4.0':
+    resolution: {integrity: sha512-3uor2f/MXZkmX5RJf8r+OC3WvZVzpSme0yyL0rQDPEnatE02qRcqwEwnsgpgriEck0S/n4vWtUd6tTtrJwk45Q==}
+
+  '@types/node@10.17.60':
+    resolution: {integrity: sha512-F0KIgDJfy2nA3zMLmWGKxcH2ZVEtCZXHHdOQs2gSaQ27+lNeEfGxzkIw90aXswATX7AZ33tahPbzy6KAfUreVw==}
+
+  '@types/node@25.5.0':
+    resolution: {integrity: sha512-jp2P3tQMSxWugkCUKLRPVUpGaL5MVFwF8RDuSRztfwgN1wmqJeMSbKlnEtQqU8UrhTmzEmZdu2I6v2dpp7XIxw==}
+
+  node-ts@8.0.11:
+    resolution: {integrity: sha512-Jxdn/sNMGs6h0k03sfzv419UtAArQX+ASP7In6fiX9VIkujWtFbVwN1E0Zpf8TYXNWIeGMitr+nJpi3WtjTMMQ==}
+    engines: {node: '>=22.0.0'}
+
+  undici-types@7.18.2:
+    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
+
+snapshots:
+
+  '@rauschma/stringio@1.4.0':
+    dependencies:
+      '@types/node': 10.17.60
+
+  '@types/node@10.17.60': {}
+
+  '@types/node@25.5.0':
+    dependencies:
+      undici-types: 7.18.2
+
+  node-ts@8.0.11:
+    dependencies:
+      '@rauschma/stringio': 1.4.0
+      '@types/node': 25.5.0
+
+  undici-types@7.18.2: {}
